@@ -1,0 +1,10 @@
+@font-face {
+	font-family: Gilroy;
+	font-weight: 400;
+	src: url('./../fonts/Gilroy-Regular.ttf') format('opentype');
+}
+@font-face {
+	font-family: Gilroy;
+	font-weight: bold;
+	src: url('./../fonts/Gilroy-Bold.ttf') format('opentype');
+}

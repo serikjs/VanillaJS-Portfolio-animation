@@ -1,0 +1,552 @@
+{
+	"Documentation": {
+		"view-in-mpage": {
+			"rus": "Показывать ли карточку портфолио на главных страницах ( 1 - значение для показа)",
+			"eng": "Whether to show the portfolio card on the main pages ( 1 - display value)"
+		},
+		"main-title": {
+			"rus": "Заголовок карточки",
+			"eng": "Card Title"
+		},
+		"subtitle": {
+			"rus": "Подзаголовок карточки",
+			"eng": "Card Subtitle"
+		},
+		"main-description": {
+			"rus": "Описание карточки",
+			"eng": "Description Title"
+		},
+		"main-img": {
+			"rus": "Главное изображение case studies",
+			"eng": "Main image of case studies"
+		},
+		"logo": {
+			"rus": "Верхний логотип для case studies",
+			"eng": "Top logo for case studies"
+		},
+		"tasks": {
+			"rus": "Список выполненных заданий",
+			"eng": "List of completed tasks"
+		},
+		"technology": {
+			"rus": "Список технологий разработки ( Miro, Figma, Webflow, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, CSS, FlowMap, HTML, WordPress)",
+			"eng": "List of development technologies"
+		},
+		"moreInfo": {
+			"rus": "Список блоков с дополнительной информацией ( Положение в массиве изменяет положение рендера на странице)",
+			"eng": "List of blocks with additional information (Position in the array changes the position of the render on the page)",
+
+			"blockType": {
+				"rus": "Тип блока ( типы блоков хранятся в верстке case-studies и upwork-case-studie в блоке .block-types ) - (twoimg-section, twoimg-section-left, moreinfo-section, moreinfo-section-twoimg) название типа соотвецтвует классу секции в .block-types",
+				"eng": "Block type (block types are stored in the case-studies and upwork-case-studie layout in the .block-types block) - (twoimg-section, twoimg-section-left, moreinfo-section, moreinfo-section-twoimg) the type name corresponds to the section class in .block-types"
+			},
+			"title": {
+				"rus": "Заголовок блока",
+				"eng": "Block header"
+			},
+			"description": {
+				"rus": "Описание блока",
+				"eng": "Description header"
+			},
+			"imgs": {
+				"rus": "Массив изображений которые будут рендериться в блок ( используются только названия изображений - Nebia-1.jpg - путь к изображениям portfolio_file/images/portfolio)",
+				"eng": "An array of images that will be rendered into a block (only image names are used - Nebia-1.jpg - path to portfolio_file/images/portfolio images)"
+			}
+		}
+	},
+
+	"Web Design": [
+		{
+			"view-in-mpage": 1,
+			"main-title": "DECORIA Flower Store",
+			"main-description": "Our relationship with DECORIA began in 2021 when they approached us to help create a website for their shop selling high-quality flowers.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "decoria.jpg",
+			"is-darken": false,
+			"main-slide-color": "#212121",
+			"slide-white-color": true,
+			"preview": "decoria.jpg",
+			"tasks": ["Visual identity", "Website design", "Web Development"],
+			"technology": [
+				"Figma",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"HTML",
+				"CSS"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["decoria-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Fresh Blooming Design",
+					"description": "We designed a frost blue, minimalistic logo that embodied the freshest, hand-picked highest quality, sustainably grown blooms gathered into exquisite bouquets and individually created by expert florists.",
+					"imgs": ["decoria-2.jpg", "decoria-3.jpg", "decoria-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Expressive Typography",
+					"description": "To support and strengthen the minimal expression we created a rigid, bold, and straightforward typographic expression that has become the signature for the brand.",
+					"imgs": ["decoria-5.jpg", "decoria-6.jpg"]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Captivating Brand",
+					"description": "Our strategy for the business and the brand was to bring joy to customers, and lift their spirit. We tried to create something special for the small flower shop: a brand and a destination to remember.",
+					"imgs": ["decoria-7.jpg"]
+				}
+			]
+		},
+		{
+			"view-in-mpage": 1,
+			"main-title": "Project A",
+			"main-description": "Project A was look­ing to up­date their website for job seekers, which would be easy to use, and produce good results for finding the best jobs for the best talents from all walks of life.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "project-a.jpg",
+			"is-darken": true,
+			"main-slide-color": "#2F2FA2",
+			"slide-white-color": true,
+			"preview": "project-a.jpg",
+			"tasks": ["Visual identity", "Website design", "Web Development"],
+			"technology": [
+				"Figma",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"HTML",
+				"CSS"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["project-a-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Accurate User Interface",
+					"description": "We worked with them to de­velop the best user in­ter­face, as well as ad­min in­ter­face for clients to man­age all fea­tures of the sys­tem.",
+					"imgs": ["project-a-2.jpg", "project-a-3.jpg", "project-a-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Our De­sign Process",
+					"description": "The first step in the de­sign process was to cre­ate a new vi­sual iden­tity for Project A. With an aim to cre­ate a trusted and rec­og­niz­able iden­tity, we de­signed a sim­ple brand sys­tem in­clud­ing lo­go­type, colour palette, and type­faces that can be used in print and on the web by the or­ga­ni­sa­tion.",
+					"imgs": ["project-a-5.jpg", "project-a-6.jpg"]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Content and Inner Ar­chi­tec­ture",
+					"description": "The tech­ni­cal ar­chi­tec­ture of the new platform is pri­mar­ily shaped by the need for a fast and re­spon­sive web­site that does not in­cur mas­sive server costs dur­ing times of heavy traf­fic. We built a cus­tom con­tent man­age­ment sys­tem that al­lows the Project A team to eas­ily up­date the con­tent and data on the web­site.",
+					"imgs": ["project-a-7.jpg"]
+				}
+			]
+		},
+		{
+			"main-title": "A2Z Technologies",
+			"main-description": "Combining the concepts of technology, quality and professional service, A2Z Technologies meets customer needs in the directions that enter the field of activity.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "A2Z.jpg",
+			"is-darken": true,
+			"preview": "A2Z.jpg",
+			"tasks": ["Visual identity", "Website design", "Web Development"],
+			"technology": [
+				"Figma",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"WordPress",
+				"FlowMap"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["A2Z-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Striking Ideas",
+					"description": "Our work for A2Z Technologies shows our conviction that simple ideas can act as sources for a multitude of striking designs. The solution for the brand’s identity was based on the concept of neon reflections – or ripples on a pond if you prefer – where the camera is the source of activity.",
+					"imgs": ["A2Z-2.jpg", "A2Z-3.jpg", "A2Z-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Visual Elegance",
+					"description": "We introduced a system of product design that was striking in its calm, stylish simplicity. Silhouetted illustrations and patterns added a touch of quiet wit, while the typeface, solid colours, simple symbols and clear labelling adds clarity and elegance to the simplistic visual language.",
+					"imgs": ["A2Z-5.jpg", "A2Z-6.jpg"]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Innovative Platform",
+					"description": "The brand identity highlights the holistic approach of the brand, which is based on product design principles. A2Z Technologies is a comprehensive software development platform that was honoured for its innovative approach to user experience, enabling agile software design and implementation.",
+					"imgs": ["A2Z-7.jpg"]
+				}
+			]
+		},
+		{
+			"main-title": "Product Rebranding",
+			"subtitle": "Designing a new website for a meticulously engineered shower system",
+			"main-description": "Nebia’s proprietary H₂Micro™ technology atomizes water into millions of micro droplets, making less water feel like so much more. The experience is unlike any other, blending the best of a steam room and a traditional shower. The goal was to create a clean website with a great UX.",
+			"hashtag": ["Web Design", "Graphic Design", "Webflow", "Web Development"],
+			"main-img": "Nebia.jpg",
+			"is-darken": false,
+			"preview": "Nebia.jpg",
+			"logo": "Nebia-logo.png",
+			"tasks": [
+				"Visual identity",
+				"Website design",
+				"Graphic design",
+				"Web Development"
+			],
+			"technology": [
+				"Miro",
+				"Figma",
+				"Webflow",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"HTML",
+				"CSS"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "twoimg-section",
+					"description": "The dynamic layout designed and integrated into the system allows for consistency while also providing specific customisation and individual expression across product and designer pages.",
+					"imgs": ["Nebia-1.jpg", "Nebia-2.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Block Dividers and Structure",
+					"description": "The concept of using different block dividers to help users navigate through the website was implemented to give a clear understanding of the content. Start with general information about the product, look through the gallery, and scroll down to the e-commerce and customer feedback sections. Enjoy the clean and modern design.",
+					"imgs": ["Nebia-3.jpg"]
+				}
+			]
+		},
+		{
+			"main-title": "Clint Eastwood’s Retrospective",
+			"subtitle": "Dedicated to Clint Eastwood's 91st birthday, his talent and work",
+			"main-description": "To mark Clint Eastwood’s 91st birthday there is a retrospective of his most iconic works. During the whole week, the audience is offered to explore the importance of Eastwood’s heritage both in Hollywood and world cinema.",
+			"hashtag": ["Web Design", "Graphic Design", "Web Development"],
+			"main-img": "Eastwoods.jpg",
+			"is-darken": true,
+			"preview": "Eastwoods.jpg",
+			"tasks": [
+				"Visual identity",
+				"Typography",
+				"Website design",
+				"Graphic design",
+				"Web Development"
+			],
+			"technology": ["Figma", "Adobe Photoshop", "HTML", "CSS"],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"title": "Idea and Concept",
+					"description": "The website is a combination of Eastwood's biography, insights about his work, and thoughts about the body of work he made.",
+					"imgs": ["Eastwoods-1.jpg", "Eastwoods-2.jpg", "Eastwoods-3.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "91 years of creative heritage",
+					"description": "The idea behind the concept was to make the whole website feel like a documentary movie. It tells you about Clint Eastwood's work and life through his films in chronological order from the Dollars Trilogy to Gran Torino. We designed a website which covers the most iconic works by Clint Eastwood, from his very beginnings to the present moment.",
+					"imgs": ["Eastwoods-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Outcome",
+					"description": "Clint Eastwood’s Retrospective is a digital editorial exploring the creative heritage of the legendary American film actor, director, screenwriter, and producer Clint Eastwood.",
+					"imgs": ["Eastwoods-5.jpg"]
+				}
+			]
+		},
+		{
+			"view-in-mpage": 1,
+			"main-title": "Luce&Bean Skincare",
+			"subtitle": "Vibrant and exciting design for everyone inside and outside the beauty space",
+			"main-description": "Luce&Bean is a brand of high-quality products for skin, hair and body. Striving to create gentle and effective products for even the most sensitive skin types, the brand uses advanced technology to offer everyday essentials for exceptional results.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "Luce&Bean.jpg",
+			"is-darken": true,
+			"preview": "Luce&Bean.jpg",
+			"tasks": [
+				"Visual identity",
+				"Website design",
+				"Animation",
+				"Web Development"
+			],
+			"technology": [
+				"Figma",
+				"Adobe After Effects",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"WordPress",
+				"FlowMap"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["Luce&Bean-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Research and Inspiration",
+					"description": "We were asked to create the whole brand identity for the skincare company Luce&Bean – including their name, website and logo. Luce&Bean take great care in responsible sourcing and high quality output of their products. The challenge was to create a new brand identity that will help to increase awareness amongst customers and companies.",
+					"imgs": ["Luce&Bean-2.jpg", "Luce&Bean-3.jpg", "Luce&Bean-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Unique and Memorable Beauty Brand",
+					"description": "We created a bright and beautiful floral artwork and a new logotype. Detailed patterns and graphic elements created a flexible toolbox that could be easily applied across all brand touch points.",
+					"imgs": [
+						"Luce&Bean-5.jpg",
+						"Luce&Bean-6.jpg",
+						"Luce&Bean-7.jpg",
+						"Luce&Bean-8.jpg"
+					]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Reflecting Brand Values",
+					"description": "The new digital platform reflects the values of the company, focusing on a new type of beauty customer, educating and inspiring users about the benefits of individual products, materials and technical innovations in creating well-being through quality skincare.",
+					"imgs": ["Luce&Bean-9.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section-twoimg",
+					"title": "Animations and GIFs",
+					"description": "We've created animations for a more convenient interaction between the client and the 3D/AR product features. Considering the time spent by the user on one section, each animation doesn't take more than 10 seconds.",
+					"imgs": ["Luce&Bean-10.gif", "Luce&Bean-11.gif"]
+				}
+			]
+		},
+		{
+			"main-title": "TEN&CO Fashion",
+			"subtitle": "Developing a website for a modern and refined brand of clothing and jewellery",
+			"main-description": "TEN&CO Fashion is a brand of elegant womenswear and exquisite jewellery. The company creates true clothes that strive to empower and inspire free independent women.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "Ten&Co.jpg",
+			"is-darken": true,
+			"preview": "Ten&Co.jpg",
+			"tasks": [
+				"Visual identity",
+				"Website design",
+				"Animation",
+				"Web Development"
+			],
+			"technology": [
+				"Figma",
+				"Adobe After Effects",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"WordPress",
+				"FlowMap"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["Ten&Co-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Design and Concept",
+					"description": "A key element of the new strategy was the idea of using posters as the main concept of the website. The starting point for the identity is graphic clarity and classic sophistication, paired with the changeable and expressive. This dualism is reflected in the choice of the contrasting colours and a graceful typeface.",
+					"imgs": ["Ten&Co-2.jpg", "Ten&Co-3.jpg", "Ten&Co-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Typography and Palette",
+					"description": "The choice of typography and colour palette helped to create a relevant and unique visual expression reflecting the company’s values, qualitative products and love for fashion.",
+					"imgs": [
+						"Ten&Co-5.jpg",
+						"Ten&Co-6.jpg",
+						"Ten&Co-7.jpg",
+						"Ten&Co-8.jpg"
+					]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Unusual Design",
+					"description": "The design system is based on a repeatable basic structure consisting of arched images and elegant playful words in the background, which forms a canvas for product differentiation and visual hierarchy in layouts.",
+					"imgs": ["Ten&Co-9.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section-twoimg",
+					"title": "Animations and GIFs",
+					"description": "We've created animations for a more convenient interaction between the client and the 3D/AR product features. Considering the time spent by the user on one section, each animation doesn't take more than 10 seconds.",
+					"imgs": ["Ten&Co-10.gif", "Ten&Co-11.gif"]
+				}
+			]
+		},
+		{
+			"main-title": "Bank of Baku Redesign",
+			"subtitle": "Creating a fresh and consistent design for one of the leading banks in Baku, Azerbaijan",
+			"main-description": "Since its creation in 1994, Bank of Baku has been supporting retail business, medium and small entrepreneurship, and big corporate business. The goal was to create a guiding and informative platform that would serve as a hub for business activities and engagement.",
+			"hashtag": ["Web Design", "UX/UI Design", "Web Development"],
+			"main-img": "BoB.jpg",
+			"is-darken": false,
+			"preview": "BoB.jpg",
+			"tasks": [
+				"Visual identity",
+				"Website design",
+				"Animation",
+				"Web Development"
+			],
+			"technology": [
+				"Figma",
+				"Adobe After Effects",
+				"Adobe Photoshop",
+				"Adobe Illustrator",
+				"HTML",
+				"CSS"
+			],
+
+			"moreInfo": [
+				{
+					"blockType": "moreinfo-section",
+					"imgs": ["BoB-1.jpg"]
+				},
+				{
+					"blockType": "twoimg-section",
+					"title": "Strategic Design",
+					"description": "The brand identity illustrates Bank of Baku as a progressive company that is professional, trusted and easy to work with. The digital platform is a core component for communications around the company’s services and solutions.",
+					"imgs": ["BoB-2.jpg", "BoB-3.jpg", "BoB-4.jpg"]
+				},
+				{
+					"blockType": "moreinfo-section",
+					"title": "Visual Identity",
+					"description": "Data visualisations are an important tool for communications and the product experience, helping to define an immediate, to-the-point and functional expression. The new brand identity focuses on a professional approach that elevates Bank of Baku’s expertise within the industry.",
+					"imgs": [
+						"BoB-5.jpg",
+						"BoB-6.jpg",
+						"BoB-7.jpg",
+						"BoB-8.jpg",
+						"BoB-9.jpg"
+					]
+				},
+				{
+					"blockType": "twoimg-section-left",
+					"title": "Clean design",
+					"description": "Design principles were formed early in the process, developed to guide the identity and ways of working, setting the right expression for the brand by aligning to customers expectations and business strategies.",
+					"imgs": ["BoB-10.jpg"]
+				}
+			]
+		}
+	],
+	"Web Dev": [],
+	"3D Design": [],
+	"Stack": {
+		"Web Design": [
+			{
+				"main-title": "Your Perth Construction Podcast",
+				"main-description": "“In case you are confused about what you need to know about building, or if you are  interested in new trends and products” – this is the main idea that our designers had to illustrate, and the inspiration for the project.",
+				"hashtag": ["Web Design", "Graphic Design", "Branding"],
+				"main-img": "Atlas.png",
+				"logo": "Atlas-logo.png",
+				"tasks": [
+					"Visual identity",
+					"Website design",
+					"Graphic design",
+					"Custom icons and templates",
+					"Webflow integration"
+				],
+				"technology": ["Figma", "Adobe Photoshop", "Adobe Illustrator"],
+
+				"moreInfo": [
+					{
+						"blockType": "moreinfo-section",
+						"title": "General Website Idea",
+						"description": "Building Atlas is a podcast collection platform that stores hundreds of creative and technical recommendations for building and construction.",
+						"imgs": ["Atlas-1.png"]
+					},
+					{
+						"blockType": "twoimg-section",
+						"title": "Typography and Colour Palette",
+						"description": "We designed a Colorama scheme that corresponds both to a technical and friendly interface as well as the “blueprint” typography.",
+						"imgs": ["Atlas-2.png", "Atlas-3.png", "Atlas-4.png", "Atlas-5.png"]
+					},
+					{
+						"blockType": "moreinfo-section-twoimg",
+						"title": "Social Campaign",
+						"description": "We were requested to create socials, including dozens of unique and plain podcast card templates that are easy to edit for the client.",
+						"imgs": ["Atlas-6.png", "Atlas-7.png"]
+					},
+					{
+						"blockType": "moreinfo-section",
+						"title": "Outcome",
+						"description": "By the end of our design journey, we developed five different pages, including FAQ, 404 page, as well as eBook and podcast collection pages.",
+						"imgs": ["Atlas-8.png"]
+					}
+				]
+			},
+			{
+				"main-title": "AR & 3D Product Visualisation",
+				"main-description": "The all-in-one CGTrader ARsenal platform provides an opportunity to generate top-quality photorealistic product visuals in 3D at scale, allowing to view the products from any angle, providing a unique 360-degree view feature, and zooming in and out for a more detailed vision.",
+				"hashtag": ["Web Design", "Graphic Design", "Webflow"],
+				"main-img": "ARsenal.png",
+				"logo": "ARsenal-logo.png",
+				"tasks": [
+					"Visual identity",
+					"Website design",
+					"Graphic design",
+					"Animation",
+					"Webflow integration"
+				],
+				"technology": [
+					"Miro",
+					"Figma",
+					"Webflow",
+					"Adobe Photoshop",
+					"Adobe Illustrator",
+					"Adobe After Effects"
+				],
+
+				"moreInfo": [
+					{
+						"blockType": "moreinfo-section",
+						"imgs": ["ARsenal-1.png", "ARsenal-2.png", "ARsenal-3.png"]
+					},
+					{
+						"blockType": "twoimg-section",
+						"title": "Platform Design Scope",
+						"description": "We've designed three separate pages for CGTrader ARsenal, showing the digital asset manager flow, the augmented reality interaction, and the 3D viewer process.",
+						"imgs": ["ARsenal-4.png", "ARsenal-5.png", "ARsenal-6.png"]
+					},
+					{
+						"blockType": "moreinfo-section",
+						"title": "Additional Features",
+						"description": "In order to provide users with an enjoyable user experience, we developed an easy and intuitive navigation through various product types that can be viewed using 3D rotatable models right on the spot.",
+						"imgs": ["ARsenal-7.png"]
+					},
+					{
+						"blockType": "twoimg-section-left",
+						"title": "Community and Social Feed",
+						"description": "After the site implementation on the request there was a social feed boost, including dozens of completely unique card templates that were easily customisable, and imitated the generally minimalistic and clean design.",
+						"imgs": ["ARsenal-8.png", "ARsenal-9.png"]
+					},
+					{
+						"blockType": "moreinfo-section",
+						"title": "FAQ and Pricing",
+						"description": "We were asked to design a separate page for the pricing section that would include both the 3D content production and AR platform fares. For the FAQ page we used tabs and icons for a better visual demonstration",
+						"imgs": ["ARsenal-10.png"]
+					},
+					{
+						"blockType": "moreinfo-section-twoimg",
+						"title": "Integrating Animations",
+						"description": "We created animations for a more convenient interaction between clients and the 3D/AR product features. Considering the time spent by an average user on one section of the website, each animation does not take more than ten seconds.",
+						"imgs": ["ARsenal-11.png", "ARsenal-12.png"]
+					},
+					{
+						"blockType": "moreinfo-section",
+						"title": "Colour Schemes and Components",
+						"description": "Designing customisable components allowed us to choose the most suitable elements from a wide collection of icons, solid and gradient colour palettes, as well as desktop and mobile font styles.",
+						"imgs": ["ARsenal-13.png"]
+					}
+				]
+			}
+		]
+	}
+}
